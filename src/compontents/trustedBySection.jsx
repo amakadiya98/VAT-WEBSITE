@@ -59,13 +59,13 @@ export default function TrustedBySection({ data } = {}) {
   };
 
   return (
-    <div className="mb-[220px] lg:mb-[536px]">
+    <div className="mb-[90px] md:mb-[120px] lg:mb-[536px]">
       <div className="w-[90%] max-w-[1500px] mx-auto">
-        <div className="lg:pb-[160px] md:pb-[200px] sm:pb-[180px] pb-[150px] lg:pt-[98px] md:pt-[80px] sm:pt-[60px] pt-[40px]">
-          <h2 className="font-bold xl:text-[80px] lg:text-6xl md:text-4xl sm:text-3xl text-xl font-inter-bold text-center text-black dark:text-white md:pb-[30px] pb-[35px] relative z-[1]">
+        <div className="lg:pb-[160px] md:pb-[200px] sm:pb-[65px] md:pb-[180px] pb-[50px] lg:pt-[98px] xl:pt-[201px] md:pt-[80px] sm:pt-[60px] pt-[40px]">
+          <h2 className="font-inter-bold xl:text-[86px] lg:text-[70px] md:text-[60px] text-[30px] font-inter-bold text-center text-black dark:text-white md:pb-[30px] pb-[15px] sm:pb-[35px] relative z-[1]">
             {data?.Title || "Trusted by"}
           </h2>
-          <p className="font-inter-regular text-[24px] tracking-[-0.03em] text-center text-grey-1">
+          <p className="font-inter-regular md:text-[24px] sm:text-[18px] text-[12px] tracking-[-0.03em] text-center text-grey-1">
             Professionals and Businesses Across the UAE
           </p>
         </div>
@@ -73,7 +73,7 @@ export default function TrustedBySection({ data } = {}) {
 
       <div className="relative overflow-hidden">
         <div
-          className="flex dark:bg-black bg-grey-2 backdrop-blur-[58.2px] py-6"
+          className="flex dark:bg-black bg-grey-2 backdrop-blur-[58.2px]  py-[10px] sm:py-[24px]"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >

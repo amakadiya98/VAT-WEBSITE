@@ -62,21 +62,22 @@ function Header() {
             <div className='px-[30px]'>
         <header
         ref={menuRef}
-        className={`flex gap-[50px] sm:p-[11px_21px] py-[11px] rounded-[21px] mx-auto w-full max-w-[1528px] justify-between items-center 
+        className={`flex gap-[50px] p-[6px_8px] sm:p-[11px_21px] sm:py-[11px] rounded-[21px] mx-auto w-full max-w-[1528px] justify-between items-center border border-white dark:border-[rgba(255,255,255,0.10)]
+
             ${isOpen ? 'backdrop-blur-none' : 'sm:backdrop-blur-[58px]'} 
             bg-[#FFFFFF] dark:bg-[#181717C2]`}
         >
-                    <div className="max-w-[54px] max-h-[25px] sm:max-w-[75px] sm:max-h-[35px] md:max-w-[95px] md:max-h-[45px] w-full h-full -mt-[22px]">
+                    <div className="max-w-[54px] max-h-[25px] sm:max-w-[75px] sm:max-h-[35px] lg:max-w-[95px] lg:max-h-[45px] w-full h-full -mt-[22px]">
                         <img src="/images/logo.svg" className='block dark:hidden' width={100} height={100} alt="Site Logo" />
                         <img src="/images/logo.svg" className='hidden dark:block' width={100} height={100} alt="Site Logo" />
                     </div>
                     <div className={`absolute top-full left-0 right-0 max-w-[90%] m-auto w-full lg:relative lg:max-w-[880px] z-40 transition-all duration-300 header-menu ease-in-out ${isOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-8'} lg:translate-y-0 lg:opacity-100 lg:visible`}>
-                        <ul className={`flex gap-4 flex-col lg:flex-row justify-between sm:mt-[23px] mt-[13px] border border-[#FFFFFF5E] lg:border-none p-[35px_17px] lg:p-0 rounded-[10px] dark:lg:backdrop-blur-none text-white dark:text-white lg:bg-transparent lg:backdrop-blur-none lg:text-purple-1 lg:mt-0 dark:backdrop-blur-[50px]  ${isOpen ? 'bg-[#0706069E]  dark:bg-[#FFFFFF0A] sm:dark:bg-transparent' : ' bg-transparent'}`}>
-                            <a href='/' onClick={() => setIsOpen(false)} ><li className='font-inter-medium text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white'>{Menus?.[0]?.Title || "HOME"}</li></a>
-                            <a href='#about' onClick={() => setIsOpen(false)} ><li className='font-inter-medium text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white'>{Menus?.[1]?.Title || "ABOUT US"}</li></a>
-                            <a href='#services' onClick={() => setIsOpen(false)}><li className='font-inter-medium text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white'>{Menus?.[2]?.Title || "SERVICES"}</li></a>
-                            <a href='#testimonials' onClick={() => setIsOpen(false)}><li className='font-inter-medium text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white'>{Menus?.[3]?.Title || "TESTIMONIALS"}</li></a>
-                            <a href='#contact' onClick={() => setIsOpen(false)} ><li className='font-inter-medium text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white'>{Menus?.[4]?.Title || "CONTACT US"}</li></a>
+                        <ul className={`flex gap-4 flex-col lg:flex-row justify-between sm:mt-[23px] mt-[13px] border border-[#FFFFFF5E] lg:border-none p-[35px_17px] lg:p-0 rounded-[10px] lg:backdrop-blur-none text-white text-white lg:bg-transparent lg:backdrop-blur-none lg:text-purple-1 lg:mt-0 backdrop-blur-[50px]  ${isOpen ? 'bg-[#0706069E]  bg-[#FFFFFF0A] sm:bg-transparent' : ' bg-transparent'}`}>
+                            <a href='/' onClick={() => setIsOpen(false)} ><li className='font-inter-medium text-white lg:text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white'>{Menus?.[0]?.Title || "HOME"}</li></a>
+                            <a href='#about' onClick={() => setIsOpen(false)} ><li className='font-inter-medium text-white lg:text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white whitespace-nowrap'>{Menus?.[1]?.Title || "ABOUT US"}</li></a>
+                            <a href='#services' onClick={() => setIsOpen(false)}><li className='font-inter-medium text-white lg:text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white'>{Menus?.[2]?.Title || "SERVICES"}</li></a>
+                            <a href='#testimonials' onClick={() => setIsOpen(false)}><li className='font-inter-medium text-white lg:text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white'>{Menus?.[3]?.Title || "TESTIMONIALS"}</li></a>
+                            <a href='#contact' onClick={() => setIsOpen(false)} ><li className='font-inter-medium text-white lg:text-black tracking-[-3%] cursor-pointer hover:underline dark:text-white whitespace-nowrap'>{Menus?.[4]?.Title || "CONTACT US"}</li></a>
                             <LanguageSwitcher />
                         </ul>
                     </div>
