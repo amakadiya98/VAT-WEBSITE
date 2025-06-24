@@ -21,7 +21,7 @@ export default function Mission({ data } = {}) {
                             <br />
                             Backed by Fintech Experts.
                         </h2>
-                    <p className="font-inter-regular md:text-[24px] sm:text-[18px] text-[12px] text-grey-3 dark:text-[#A5A5A5] max-w-[1008px] lg:text-[24px] md:text-[20px] text-[18px]">
+                    <p className="font-inter-regular md:text-[24px] sm:text-[18px] text-[12px] text-grey-3 dark:text-[#A5A5A5] max-w-[1008px]">
                             Emirates Tax was founded to eliminate the chaos of manual tax reporting. Our team combines 
                             finance, AI, and compliance expertise to deliver a powerful platform that simplifies every step 
                             from uploading documents to generating final reports.

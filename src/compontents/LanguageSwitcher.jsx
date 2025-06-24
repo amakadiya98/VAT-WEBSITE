@@ -33,12 +33,12 @@ const LanguageSwitcher = () => {
                 className="inline-flex items-center gap-2 border border-none px-0 py-0 rounded bg-transparent focus:outline-none"
             >
                 <img src={selected.flagUrl} alt="flag" className="w-6 h-4 rounded object-cover" />
-                <span className='font-inter-medium text-white lg:text-black dark:text-white tracking-[-3%]'>{selected.label}</span>
-                <span className='text-white lg:text-black dark:text-white'><RiArrowDropDownLine size={30}/></span>
+                <span className='font-inter-medium text-black dark:text-white tracking-[-3%]'>{selected.label}</span>
+                <span className='text-black dark:text-white'><RiArrowDropDownLine size={30}/></span>
             </button>
 
             {open && (
-                <div className="absolute z-10 mt-2 min-w-[70px] bg-[#181717C2] lg:bg-white border-none text-white lg:text-black dark:text-white rounded shadow-lg font-inter-medium dark:bg-[#181717C2]">
+                <div className="absolute z-10 mt-2 min-w-[70px] bg-white lg:bg-white border-none text-black dark:text-white rounded shadow-lg font-inter-medium dark:bg-[#181717C2]">
                     {options.map((opt) => (
                         <button
                             key={opt.value}

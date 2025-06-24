@@ -1,0 +1,28 @@
+.hero-section .spline-container canvas{
+    transform:  scale(2);
+}
+@media (max-width:1536px) {
+    .hero-section .spline-container canvas{
+    transform:  scale(1.4);
+}
+}
+@media (max-width:1280px) {
+    .hero-section .spline-container canvas{
+    transform:  scale(0.9);
+}
+}
+@media (max-width:1024px) {
+    .hero-section .spline-container canvas{
+    transform:  scale(0.8);
+}
+}
+@media (max-width:768px) {
+    .hero-section .spline-container canvas{
+    transform:  scale(0.5);
+}
+}
+@media (max-width:520px) {
+    .hero-section .spline-container canvas{
+    transform:  scale(0.5);
+}
+}

@@ -8,7 +8,7 @@ export default function Features({ data } = {}) {
                     Features
                 </div>
             </div>
-            <h2 className="font-inter-bold xl:text-[86px] lg:text-[70px] text-[30px] text-black dark:text-white pt-[20px] sm:pt-[115px] pb-[0px] sm:pb-[30px] xl:text-[86px] lg:text-[70px] md:text-[60px] text-[45px] tracking-[-0.06em]  text-center">
+            <h2 className="font-inter-bold xl:text-[86px] lg:text-[70px] text-[30px] text-black dark:text-white pt-[20px] sm:pt-[115px] pb-[0px] sm:pb-[30px] xl:text-[86px] lg:text-[70px] md:text-[60px] text-[30px] tracking-[-0.06em]  text-center">
                 All-in-One Tax & P&L Solution
             </h2>
             <p className="font-inter-regular md:text-[24px] sm:text-[18px] text-[12px]  tracking-[-0.03em] text-center text-grey-1">

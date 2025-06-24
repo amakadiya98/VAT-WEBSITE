@@ -82,14 +82,14 @@ export default function Testimonial({ data } = {}) {
     return (
         <div id="testimonials">
             <div className="w-[84%] mx-auto" />
-            <div className={`relative lg:pt-[463px] md:pt-[300px] sm:pt-[200px] pt-0 text-black`}>
+            <div className={`relative pt-[145px] lg:pt-[463px] md:pt-[300px] sm:pt-[200px] pt-0 text-black`}>
                 <div className="container">
                     <div className="flex justify-center">
                 <div className="inline-block text-black font-inter-medium px-[15px] sm:px-[44px] py-[6px] sm:py-[11px] border border-[#00000042] dark:border-[#FFFFFF42] rounded-[12px] sm:rounded-[21px] text-[16px] sm:text-[34px] bg-[#0505050D] backdrop-blur-[58.2px] z-30 dark:text-[#FFF4F4] dark:border-[#FFFFFF42] dark:bg-[#FFFFFF0D]">
                    Testimonials
                 </div>
             </div>
-                    <h2 className="font-inter-bold xl:text-[86px] lg:text-[70px] text-[30px] text-center text-black dark:text-white pt-[20px] sm:pt-[85px] pb-[10px] sm:pb-[35px] xl:text-[86px] lg:text-[70px] md:text-[60px] text-[45px] tracking-[-0.06em]  text-center  testimonial-circle-design relative sm:text-center  m-auto   font-bold  tracking-[-3%]  z-10 dark:text-[#F2E5E5]  before:bg-[#FAA9A9] dark:before:bg-[#C5010199] before:absolute sm:before:content-[''] before:content-none before:-top-48 before:rounded-full before:w-[600px] before:h-[600px] before:blur-[200px] before:z-[-100]">
+                    <h2 className="font-inter-bold xl:text-[86px] lg:text-[70px] text-[30px] text-center text-black dark:text-white pt-[20px] sm:pt-[85px] pb-[10px] sm:pb-[35px] xl:text-[86px] lg:text-[70px] md:text-[60px] text-[30px] tracking-[-0.06em]  text-center  testimonial-circle-design relative sm:text-center  m-auto   font-bold  tracking-[-3%]  z-10 dark:text-[#F2E5E5]  before:bg-[#FAA9A9] dark:before:bg-[#C5010199] before:absolute sm:before:content-[''] before:content-none before:-top-48 before:rounded-full before:w-[600px] before:h-[600px] before:blur-[200px] before:z-[-100]">
                         {data?.Title || `What Our Users Are Saying?`}
                     </h2>
                     <p className="font-inter-regular md:text-[24px] sm:text-[18px] text-[12px] tracking-[-0.03em] text-center text-grey-4 z-30">
